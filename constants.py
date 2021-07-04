@@ -2,6 +2,7 @@
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = int(SCREEN_WIDTH * 0.8)
 TITLE = 'Intruder'
+ICON = 'icon\\intruder.ico'
 
 # Framerate
 FPS = 60
