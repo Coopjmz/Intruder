@@ -27,7 +27,7 @@ game_state = MAIN_MENU_STATE
 pygame.init()
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption(TITLE)
-pygame.display.set_icon(pygame.image.load(ICON))
+pygame.display.set_icon(pygame.image.load(ICON).convert_alpha())
 
 # Initialize sound mixer
 pygame.mixer.init()
